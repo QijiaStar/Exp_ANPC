@@ -1,6 +1,4 @@
-#include "F28x_Project.h"     // Device Headerfile and Examples Include File
-#include "F2837xD_Ipc_drivers.h"
-#include <math.h>
+#include <Includes.h>
 
 #define CLARKE_DEFAULTS { 0.0, \
                           0.0, \
@@ -520,7 +518,7 @@ void CtrlProcess (void)
 	I_clarke.AS    =-Ia;                 //将实际A相电流采集值赋值给I_AS，电流指向里
 	I_clarke.BS    =-Ib;                 //将实际B相电流采集值赋值给I_BS
 	I_clarke.CS    =-Ic;                 //将实际C相电流采集值赋值给I_CS
-    clarke_calc(&I_clarke);				//clark变换函数调用,计算电流ALPHA BETA 坐标转换值
+    clarke_calc(&I_clarke);				 //clark变换函数调用,计算电流ALPHA BETA 坐标转换值
 	/*电流帕克坐标变换*/
 	I_park.PAlpha  = I_clarke.Valpha;   //将克拉克变换计算的ALPHA做帕克变换输入
 	I_park.PBeta   = I_clarke.Vbeta;    //将克拉克变换计算的BETA做帕克变换输入
@@ -569,7 +567,7 @@ void Paramcalc1(void)
 {
 	float temp1,temp2;long temp3;
 
-	temp1 =Udc*Idc;//Uab* Ia - Ubc* Ic;
+	temp1 =Udc*Idc;// Uab* Ia - Ubc* Ic;
 	if(flg2)//发电量计算
 	{
 
