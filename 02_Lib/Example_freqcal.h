@@ -19,7 +19,7 @@
 #ifndef __FREQCAL__
 #define __FREQCAL__
 
-#include "IQmathLib.h"         // Include header for IQmath library
+#include <02_Lib/IQmathLib.h>         // Include header for IQmath library
 /*-----------------------------------------------------------------------------
 Define the structure of the FREQCAL Object
 -----------------------------------------------------------------------------*/

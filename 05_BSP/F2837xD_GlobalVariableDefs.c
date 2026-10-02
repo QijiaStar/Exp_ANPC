@@ -11,7 +11,7 @@
 //             http://www.ti.com/ ALL RIGHTS RESERVED $
 //###########################################################################
 
-#include "F2837xD_device.h"     // F2837xD Headerfile Include File
+#include <02_Lib/F2837xD_device.h>     // F2837xD Headerfile Include File
 
 //---------------------------------------------------------------------------
 // Define Global Peripheral Variables:

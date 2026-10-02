@@ -9,6 +9,10 @@
 #define PI (3.141592653589793f)
 #define PI_2DIV3 (2.094395102393195f)
 
+#define BASE_OMEGA (2 * PI * 50.0f)
+
 extern float32 Max_Of_Three_Func(const float32 input1, const float32 input2, const float32 input3);
+extern float32 Min_Of_Three_Func(const float32 input1, const float32 input2, const float32 input3);
+extern float32 Mid_Of_Three_Func(const float32 input1, const float32 input2, const float32 input3);
 
 #endif /* MATH_MATH_FUNC_H_ */

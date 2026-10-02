@@ -11,8 +11,8 @@
 //             http://www.ti.com/ ALL RIGHTS RESERVED $
 //###########################################################################
 
-#include "F2837xD_device.h"     // F2837xD Headerfile Include File
-#include "F2837xD_Examples.h"   // F2837xD Examples Include File
+#include <02_Lib/F2837xD_device.h>     // F2837xD Headerfile Include File
+#include <02_Lib/F2837xD_Examples.h>   // F2837xD Examples Include File
 
 //---------------------------------------------------------------------------
 // InitPieCtrl: 

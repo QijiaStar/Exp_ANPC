@@ -10,8 +10,8 @@
 //             http://www.ti.com/ ALL RIGHTS RESERVED $
 //###########################################################################
 
-#include "F2837xD_device.h"
-#include "F2837xD_Examples.h"
+#include <02_Lib/F2837xD_device.h>
+#include <02_Lib/F2837xD_Examples.h>
 
 //Low-level functions for GPIO configuration (CPU1 only)
 

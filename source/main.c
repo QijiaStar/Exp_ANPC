@@ -1143,7 +1143,7 @@ void I2C_Operation(void)
         ENRG_Data.Y_Update=ENRG_Data.Year;
         p=(Uint16 *)(&ENRG_Data.Month);
         *p=data[54] &= 0xff;//去掉年月日旳高字节
-        ENRG_Data.M_Update=ENRG_Data.Month;
+         ENRG_Data.M_Update=ENRG_Data.Month;
         p=(Uint16 *)(&ENRG_Data.Date);
         *p=data[56] &= 0xff;
         ENRG_Data.D_Update=ENRG_Data.Date;

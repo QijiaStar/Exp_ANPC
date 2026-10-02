@@ -15,8 +15,8 @@
 //             http://www.ti.com/ ALL RIGHTS RESERVED $
 //###########################################################################
 
-#include "F2837xD_device.h"     // Headerfile Include File
-#include "F2837xD_Examples.h"   // Examples Include File
+#include <02_Lib/F2837xD_device.h>     // Headerfile Include File
+#include <02_Lib/F2837xD_Examples.h>   // Examples Include File
 
 // Functions that will be run from RAM need to be assigned to
 // a different section.  This section will then be mapped to a load and

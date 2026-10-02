@@ -25,6 +25,7 @@ extern "C" {
                     EPwm7Regs.CMPA.bit.CMPA = Svgen_Mul.Dc1 * EPWM_TBPRD;\
                     EPwm8Regs.CMPA.bit.CMPA = Svgen_Mul.Dc2 * EPWM_TBPRD;}
 
+#define INT_PERIOD (50e-6f) // interrupt period
 #define EPWM_TBPRD 2500
 // TBCTL (Time-Base Control)
 //==========================

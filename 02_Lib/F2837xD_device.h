@@ -143,40 +143,40 @@ typedef long double     	float64;
 //---------------------------------------------------------------------------
 // Include All Peripheral Header Files:
 //
-#include "F2837xD_adc.h"
-#include "F2837xD_analogsubsys.h"
-#include "F2837xD_cla.h"
-#include "F2837xD_cmpss.h"
-#include "F2837xD_cputimer.h"
-#include "F2837xD_dac.h"
-#include "F2837xD_dcsm.h"
-#include "F2837xD_dma.h"
-#include "F2837xD_ecap.h"
-#include "F2837xD_emif.h"
-#include "F2837xD_epwm.h"                // Enhanced PWM
-#include "F2837xD_epwm_xbar.h"
-#include "F2837xD_eqep.h"
-#include "F2837xD_flash.h"
-#include "F2837xD_gpio.h"                // General Purpose I/O Registers
-#include "F2837xD_i2c.h"
-#include "F2837xD_input_xbar.h"
-#include "F2837xD_ipc.h"
-#include "F2837xD_mcbsp.h"
-#include "F2837xD_memconfig.h"
-#include "F2837xD_nmiintrupt.h"          // NMI Interrupt Registers
-#include "F2837xD_output_xbar.h"
-#include "F2837xD_piectrl.h"             // PIE Control Registers
-#include "F2837xD_pievect.h"
-#include "F2837xD_sci.h"
-#include "F2837xD_sdfm.h"
-#include "F2837xD_spi.h"
-#include "F2837xD_sysctrl.h"             // System Control/Power Modes
-#include "F2837xD_upp.h"
-#include "F2837xD_xbar.h"
-#include "F2837xD_xint.h"                // External Interrupts
-#include "types.h"
-#include "IQmathLib.h"
-#include "DSP2833x_UserDefine.h"
+#include <02_Lib/F2837xD_adc.h>
+#include <02_Lib/F2837xD_analogsubsys.h>
+#include <02_Lib/F2837xD_cla.h>
+#include <02_Lib/F2837xD_cmpss.h>
+#include <02_Lib/F2837xD_cputimer.h>
+#include <02_Lib/F2837xD_dac.h>
+#include <02_Lib/F2837xD_dcsm.h>
+#include <02_Lib/F2837xD_dma.h>
+#include <02_Lib/F2837xD_ecap.h>
+#include <02_Lib/F2837xD_emif.h>
+#include <02_Lib/F2837xD_epwm.h>                // Enhanced PWM
+#include <02_Lib/F2837xD_epwm_xbar.h>
+#include <02_Lib/F2837xD_eqep.h>
+#include <02_Lib/F2837xD_flash.h>
+#include <02_Lib/F2837xD_gpio.h>                // General Purpose I/O Registers
+#include <02_Lib/F2837xD_i2c.h>
+#include <02_Lib/F2837xD_input_xbar.h>
+#include <02_Lib/F2837xD_ipc.h>
+#include <02_Lib/F2837xD_mcbsp.h>
+#include <02_Lib/F2837xD_memconfig.h>
+#include <02_Lib/F2837xD_nmiintrupt.h>          // NMI Interrupt Registers
+#include <02_Lib/F2837xD_output_xbar.h>
+#include <02_Lib/F2837xD_piectrl.h>             // PIE Control Registers
+#include <02_Lib/F2837xD_pievect.h>
+#include <02_Lib/F2837xD_sci.h>
+#include <02_Lib/F2837xD_sdfm.h>
+#include <02_Lib/F2837xD_spi.h>
+#include <02_Lib/F2837xD_sysctrl.h>             // System Control/Power Modes
+#include <02_Lib/F2837xD_upp.h>
+#include <02_Lib/F2837xD_xbar.h>
+#include <02_Lib/F2837xD_xint.h>                // External Interrupts
+#include <02_Lib/types.h>
+#include <02_Lib/IQmathLib.h>
+#include <02_Lib/DSP2833x_UserDefine.h>
 
 #ifdef __cplusplus
 }

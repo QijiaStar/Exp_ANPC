@@ -9,8 +9,8 @@
 //             http://www.ti.com/ ALL RIGHTS RESERVED $
 //###########################################################################
 
-#include "F2837xD_device.h"     // Headerfile Include File
-#include "F2837xD_Examples.h"   // Examples Include File
+#include <02_Lib/F2837xD_device.h>     // Headerfile Include File
+#include <02_Lib/F2837xD_Examples.h>   // Examples Include File
 
 struct CPUTIMER_VARS CpuTimer0;
 struct CPUTIMER_VARS CpuTimer1;

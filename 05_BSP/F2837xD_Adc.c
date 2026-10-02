@@ -14,8 +14,8 @@
 //
 // Included Files
 //
-#include "F2837xD_device.h"
-#include "F2837xD_Examples.h"
+#include <02_Lib/F2837xD_device.h>
+#include <02_Lib/F2837xD_Examples.h>
 
 //
 // AdcSetMode - Set the resolution and signalmode for a given ADC. This will

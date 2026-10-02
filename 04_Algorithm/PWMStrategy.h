@@ -1,6 +1,6 @@
 #ifndef ALGORITHM_PWMSTRATEGY_H_
 #define ALGORITHM_PWMSTRATEGY_H_
 
-
+extern float32 SVPWM_Zero_Sequence_Func(THREE_VOL_REGS* p);
 
 #endif /* ALGORITHM_PWMSTRATEGY_H_ */

@@ -1,7 +1,7 @@
 #ifndef	_W5300_H_
 #define	_W5300_H_
 
-#include "types.h"
+#include <02_Lib/types.h>
 /**
  * SOCKET count of W5300 
  */
